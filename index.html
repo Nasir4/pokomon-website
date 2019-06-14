@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <link rel="stylesheet" href="main.css">
+    <title>PokoMan</title>
+</head>
+<body>
+   <div class="container">
+       <div class="top-bar">
+           <div class="stats">
+                <p><b>29</b> Online Player</p>
+               <div class="divider"></div>
+               <p><b>29437</b> Regester Player</p>
+           </div>
+
+           <div class="login">
+               <form action="index.html" method="post">
+                   <input type="text" name="username" value="" placeholder="UserName">
+                   <input type="password" name="password" value="" placeholder="Password">
+                   <button class="btn btn-login" type="button" name="button" value="Login">LogIn</button>
+                   <a href="#" class="btn btn-register">Register</a>
+               </form>
+           </div>
+       </div>
+
+       <div class="header">
+           <div class="logo"></div>
+           <div class="about">
+                legendary world of pokemon <a href="#">#pkmnreborn.</a> Are you ready?
+                JOIN NOW FOR FREE
+                Pokemon trainer Dawn
+           </div>
+           <a href="#" class="btn btn-join">Join Now For Free</a>
+       </div>
+
+       <div class="content">
+           <img src="./img/dawn.png" alt="dawn" class="trainer dawn">
+           <img src="./img/ash.png" alt="dawn" class="trainer ash">
+           
+           <div class="trainer-left"></div>
+           <div class="trainer-right"></div>
+
+           <div class="event">
+               <h1 class="title">Collection Contest Event!</h1>
+               <p class="description">
+                    Collection Contest of Pokemon Munchlax is
+                    up, Collect as many Munchlax and get a rare bonus promo FREE Eternal <a href="#">Munchlax.</a>
+               </p>
+               <!-- <hr class="divider"> -->
+               <p class="expire">
+                   Expair In 24 hours
+               </p>
+           </div>
+       
+       <!-- <div class="switch-content">
+           <div class="tabs">
+               <div class="tab tab-1 tab-active">News &amp; Updates</div>
+               <div class="tab tab-2">Top Players</div>
+               <div class="tab tab-3">PROMO</div>
+           </div>
+
+           <div class="tab-content">
+              <div class="left-side">
+                <div class="post">
+                    <div class="post-header">
+                        <img src="cruz.png" alt="cruze" class="post-avatar">
+                        <div class="post-details">
+                            <div class="post-author">
+                                <span class="post-rank rank-admin">/ Administar</span>
+                            </div>
+                            <div class="post-date">
+                                2 Days Ago
+                            </div>
+                        </div>
+                        <div class="post-body">
+                            <p class="post-title">
+                                Design Updates
+                            </p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eligendi quos hic atque, quidem non molestias, aspernatur debitis et itaque esse unde libero quisquam illo labore provident quis saepe officia dolor, qui facere nihil perspiciatis corporis. Possimus nisi pariatur vel?
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post-header">
+                    <img src="cruz.png" alt="cruze" class="post-avatar">
+                    <div class="post-details">
+                        <div class="post-author">
+                            <span class="post-rank rank-mod">/ Moderation</span>
+                        </div>
+                        <div class="post-date">
+                                A Week Ago
+                        </div>
+                    </div>
+                    <div class="post-body">
+                        <p class="post-title">
+                            Design Updates
+                        </p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla eligendi quos hic atque, quidem non molestias, aspernatur debitis et itaque esse unde libero quisquam illo labore provident quis saepe officia dolor, qui facere nihil perspiciatis corporis. Possimus nisi pariatur vel?
+                    </div>
+                </div>
+              </div>
+
+              <div class="right-side">
+                <div class="advertisement">
+
+                </div>
+                    
+
+              </div>
+           </div>
+       </div>
+    </div> -->
+    <div id="tabs" class="main-tabs">
+            <ul class="tabs">
+              <li><a href="#tabs-1">News & Updates</a></li>
+              <li><a href="#tabs-2">Top Players</a></li>
+              <li><a href="#tabs-3">PROMO</a></li>
+            </ul>
+            <div id="tabs-1" class="tabs-lists">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1L4TWiIrhRc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="cruz-wrap">
+                    <div class="cruz">
+                        <img src="./img/cruz.png" alt="cruz" class="cruz-img">
+                        <div class="cruz__content">
+                            <p class="cruz__content--p1"><strong>Cruz  <span> /Administrator</span></strong></p>
+                            <p class="cruz__content--p2">56 Days 6 Hours ago</p>
+                        </div>
+                    </div>
+                    <div class="cruz__comments">
+                        <p class="cruz__comments--p1">Hey Reborn Players,<br> 
+                                Sorry for the delay in announcements.</p>
+                        <p class="cruz__comments--p1">But now claim your prize from Secret Santa, a new special event of Pokemon treasure is introduced and also if you didn't really noticed Santa's Shop is up aswell.</p>
+                        <p class="cruz__comments--p1">These events will up until 31st December.
+                        Good Luck and Merry Christmas!</p>
+                    </div>
+               </div>
+
+               <div class="cruz-wrap">
+                    <div class="cruz">
+                        <img src="./img/cruz.png" alt="cruz" class="cruz-img">
+                        <div class="cruz__content">
+                            <p class="cruz__content--p1"><strong>Cruz  <span> /Administrator</span></strong></p>
+                            <p class="cruz__content--p2">84 Days 16 Hours ago</p>
+                        </div>
+                    </div>
+                    <div class="cruz__comments">
+                        <p class="cruz__comments--p1">Collection Contest has been started and the collection of Pokemon - Munchlax ends after 20 days. Winning Prize is Eternal Munchlax. 
+                                Good Luck!</p>
+                        <p class="cruz__comments--p1">Few Updates-<br> 
+                                Game layout updated, The menus are more responsive.
+                                Forum layout redesigned.
+                                Clan Reward (Specific Swap) - Pokemon ->
+                                Drownzee, Tauros, Mareep, Meditite, Munna, Sandile, Klefki added & Munchlax, Mr. Mime are removed from the swap..</p>
+                        <p class="cruz__comments--p1">We are also planning to add a wiki section and recreate the game layout. I need your suggestion over here <a href="#">https://pkmnreborn.com/forums/viewthread.php?id=203</a></p>
+                    </div>
+               </div>
+
+               <div class="cruz-wrap">
+                    <div class="cruz">
+                        <img src="./img/cruz.png" alt="cruz" class="cruz-img">
+                        <div class="cruz__content">
+                            <p class="cruz__content--p1"><strong>Cruz  <span> /Administrator</span></strong></p>
+                            <p class="cruz__content--p2">107 Days 16 Hours ago</p>
+                        </div>
+                    </div>
+                    <div class="cruz__comments">
+                        <p class="cruz__comments--p1">Staff Promotion!<br>
+                                Forum Moderator -<br>
+                                Ashperdue & Danovlowsima<br>
+                                Chat Moderator -<br>
+                                Phoenix, Doctorblaze & Zeref<br>
+                                Congratulations.<br> 
+                                Good Luck!</p>
+                        <p class="cruz__comments--p1">Halloween Event ends on 7th November.<br>
+                                For more info. regarding event refer<br> <a href="#">https://pkmnreborn.com/forums/viewthread.php?id=172</a></p>
+                        <p class="cruz__comments--p1">Updates :-<br>
+                                Event Candies bug in Battle is fixed.<br>
+                                We are recording user activities on this game, So they can be rewarded as per their game-play duration. This might result in slower server response but it will be fixed soon.<br>
+                                Witch Shop pokemons will be updated in next 24 hours.<br>
+                                Thank you!</p>
+                    </div>
+               </div>
+
+               <div class="cruz-wrap">
+                    <div class="cruz">
+                        <img src="./img/cruz.png" alt="cruz" class="cruz-img">
+                        <div class="cruz__content">
+                            <p class="cruz__content--p1"><strong>Cruz  <span> /Administrator</span></strong></p>
+                            <p class="cruz__content--p2">130 Days 13 Hours ago</p>
+                        </div>
+                    </div>
+                    <div class="cruz__comments">
+                        <p class="cruz__comments--p1">Hey Reborn Trainers,<br><br>
+
+                                Announcements - <br>
+                                Pokemon Reborn Contest #6 has ended. Congratulations to the winners and the prizes has be transferred to your account.<br>
+                                The game community has reached more than 5,600 trainers.<br>
+                                As the RPG is growing rapidly we have opened the Staff Application's again for the Chatroom Moderator. You can apply here -><a href="#"> https://pkmnreborn.com/forums/viewthread.php?id=165</a></p>
+                        <p class="cruz__comments--p1">Also, we are working on the all new game layout which will be released soon & I request you to help us regarding the <a href="#">MAP QUEST Mode.</a></p>
+                        <p class="cruz__comments--p1">Few Updates - <br>
+                                Maps tiles has been updated.<br>
+                                Now you will return to the position of the map from where the wild battle started.<br>
+                                *The complete map user movement system has been replaced. It has been made more realistic and will give you the feel of Gameboy on Web-Browser.<br>
+                                500 Server Error issue is fixed.<br>
+                                Terms and Conditions are updated, Kindly read them!</p>
+                    </div>
+               </div>
+
+            </div>
+            <div id="tabs-2" class="tabs-lists">
+              <table>
+                 
+                      <thead>
+                          <tr>
+                            <th>ID-#</th>
+                            <th>TRAINER</th>
+                            <th>THRONE OF REGION</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                         <tr>
+                             <td>#3928</td>
+                             <td>phoenix</td>
+                             <td>Kanto</td>
+                            
+                         </tr>
+                         <tr>
+                            <td>#3928</td>
+                            <td>phoenix</td>
+                            <td>Kanto</td>    
+                        </tr>
+                         <tr>
+                            <td>#3928</td>
+                            <td>phoenix</td>
+                            <td>Kanto</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>#3928</td>
+                            <td>phoenix</td>
+                            <td>Kanto</td>
+                        </tr>
+                        <tr>
+                            <td>#3928</td>
+                            <td>phoenix</td>
+                            <td>Kanto</td>
+                        </tr>
+                      </tbody>
+              </table>
+            </div>
+            <div id="tabs-3" class="tabs-lists">
+               <div class="cruz__comments">
+                   <img src="./img/GoldenStaryu.png" alt="Goldenstaryu">
+                   <p class="cruz__comments--p1">GoldenStaryu</p>
+               </div>
+            </div>
+          </div>
+   </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
